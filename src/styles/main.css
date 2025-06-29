@@ -1,0 +1,128 @@
+body{
+    background: #F6F8FC;
+}
+
+#content{
+    max-width: 100rem;
+    min-height: 100vh;
+    padding: 1rem;
+    margin: 2rem auto;
+
+    background: #fff;
+}
+
+.pokemon-items{
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .8rem;
+}
+
+.pokemon-items li{
+    padding: 1rem 1rem 0.4rem;
+    border-radius: 1rem;
+
+    color: #fff;
+}
+
+.pokemon-card{
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.pokemon-card__details .container{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: -50%;
+}
+
+.pokemon-card .number{
+    opacity: .3;
+    color: #000;
+    text-align: right;
+    font-size: .625rem;
+}
+
+.pokemon-card__details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokemon-card__details .types{
+    margin-top: .5rem;
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.pokemon-card__details .type{
+    padding: .125rem .6rem;
+    width: min-content;
+
+    text-align: center;
+    font-size: .625rem;
+    font-weight: 600;
+}
+
+.pokemon-card__details img{
+    max-width: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.pagination button{
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+
+    background: #e3e3e7;
+
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #6C79DB;
+    box-shadow: 1px 2px 20px #6C79DB;
+    transform: scale(1.1);
+    transition: ease-in-out .2s;
+}
+
+@media screen and (max-width: 330px) {
+    .pokemon-items{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .pokemon-items{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pokemon-items{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #content{
+        margin: auto;
+    }
+}

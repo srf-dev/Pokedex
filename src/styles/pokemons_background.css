@@ -1,0 +1,147 @@
+.pokemon-card{
+    background: no-repeat calc(100% - (-15px)) calc(100% - (-30px)) / 100px;
+}
+
+.grass{
+    background-image: url(../../assets/pokeball-green.svg);
+    background-color: #49D0B0;
+}
+.grass .type{
+    background: #61DEC4;
+}
+
+.fire{
+    background-image: url(../../assets/pokeball-red.svg);
+    background-color: #FC6C6D;
+}
+.fire .type{
+    background: #FE8A8A;
+}
+
+.water{
+    background-image: url(../../assets/pokeball-blue.svg);
+    background-color: #73BDFE;
+}
+.water .type{
+    background: #8FD3FC;
+}
+
+.normal{
+    background-image: url(../../assets/pokeball-normal.svg);
+    background-color: #a6a877;
+}
+.normal .type{
+    background: #858851;
+}
+
+.ice{
+    background-image: url(../../assets/pokeball-ice.svg);
+    background-color: #98d5d7;
+}
+.ice .type{
+    background: #6BB5B7;
+}
+
+.electric{
+    background-image: url(../../assets/pokeball-yellow.svg);
+    background-color: #FED86F;
+}
+.electric .type{
+    background: #FFE681;
+}
+
+.ground{
+    background-image: url(../../assets/pokeball-ground.svg);
+    background-color: #DFBF69;
+}
+.ground .type{
+    background: #BC9C45;
+}
+
+.flying{
+    background-image: url(../../assets/pokeball-flying.svg);
+    background-color: #A98FF0;
+}
+.flying .type{
+    background: #8D72D7;
+}
+
+.poison{
+    background-image: url(../../assets/pokeball-poison.svg);
+    background-color: #A040A0;
+}
+.poison .type{
+    background: #863486;
+}
+
+.fighting{
+    background-image: url(../../assets/pokeball-fighting.svg);
+    background-color: #BF3029;
+}
+.fighting .type{
+    background: #962823;
+}
+
+.psychic{
+    background-image: url(../../assets/pokeball-psychic.svg);
+    background-color: #165687;
+}
+.psychic .type{
+    background: #236395;
+}
+
+.dark{
+    background-image: url(../../assets/pokeball-dark.svg);
+    background-color: #725847;
+}
+.dark .type{
+    background: #634939;
+}
+
+.rock{
+    background-image: url(../../assets/pokeball-rock.svg);
+    background-color: #b8a137;
+}
+.rock .type{
+    background: #EBD572;
+}
+
+.bug{
+    background-image: url(../../assets/pokeball-bug.svg);
+    background-color: #A8B720;
+}
+.bug .type{
+    background: #7E8C03;
+}
+
+.ghost{
+    background-image: url(../../assets/pokeball-ghost.svg);
+    background-color: #6E5896;
+}
+.ghost .type{
+    background: #5B4189;
+}
+
+.steel{
+    background-image: url(../../assets/pokeball-steel.svg);
+    background-color: #B9B7CF;
+}
+.steel .type{
+    background: #9C99B6;
+}
+
+.dragon{
+    background-image: url(../../assets/pokeball-dragon.svg);
+    background-color: #6F38F6;
+}
+.dragon .type{
+    background: #5620DB;
+}
+
+.fairy{
+    background-image: url(../../assets/pokeball-fairy.svg);
+    background-color: #F9AEC7;
+}
+.fairy .type{
+    background: #EF7CA2;
+}
