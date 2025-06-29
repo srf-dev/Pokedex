@@ -2,7 +2,7 @@
 
 Este projeto é uma Pokédex interativa feita com **HTML, CSS e JavaScript**, que consome dados da [PokéAPI](https://pokeapi.co/) para exibir uma lista de Pokémons com seus respectivos tipos, número e imagens.
 
-![Exemplo da Pokédex](./assets/pokedex-preview.jpg)
+![Exemplo da Pokédex](./assets/GitHub.svg)
 
 ## Funcionalidades
 
@@ -56,9 +56,11 @@ A cada clique no botão **"Load More"**, mais Pokémons são carregados até o l
    git clone https://github.com/srf-dev/Pokedex.git
    ```
 
-2. Abra o arquivo `index.html` no navegador.
-
-Não é necessário backend ou servidor — o projeto é 100% client-side.
+2. Para rodar o projeto localmente
+- **Live Server (VS Code)**: clique com o botão direito no `index.html` e escolha "Open with Live Server".
+- **Node.js (npx)**:
+  ```bash
+  npx http-server
 
 ## Autor
 
